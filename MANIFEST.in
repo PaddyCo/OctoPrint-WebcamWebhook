@@ -1,0 +1,4 @@
+include README.md
+recursive-include webcamwebhook/templates *
+recursive-include webcamwebhook/translations *
+recursive-include webcamwebhook/static *
