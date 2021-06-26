@@ -8,7 +8,7 @@ $(function() {
     function WebcamWebhookViewModel(parameters) {
         var self = this;
 
-        var apiUrl = OctoPrint.getSimpleApiUrl("octoprint_webcamwebhook");
+        var apiUrl = OctoPrint.getSimpleApiUrl("webcamwebhook");
         var hashes = ["#control", "#webcam"];
 
         var onWebcamAccess = function() {
